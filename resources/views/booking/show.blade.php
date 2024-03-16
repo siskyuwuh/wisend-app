@@ -62,7 +62,7 @@
                                 Kecamatan,
                                 Kabupaten Asal</label>
                             <span
-                                class="text-sm font-thin text-gray-700">{{ $destination->kelurahan . ', ' . $destination->kecamatan . ', ' . $destination->kabupaten }}</span>
+                                class="text-sm font-thin text-gray-700">{{ $data->destination->kelurahan . ', ' . $data->destination->kecamatan . ', ' . $data->destination->kabupaten }}</span>
 
                         </div>
 
@@ -214,7 +214,7 @@
                     <div class="">
                         <label for="" class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">Jarak
                             Tujuan</label>
-                        <span class="text-sm font-thin text-gray-700">{{ $destination->jarak }}</span>
+                        <span class="text-sm font-thin text-gray-700">{{ $data->destination->jarak }}</span>
 
                     </div>
                     <div class="">

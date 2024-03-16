@@ -263,7 +263,7 @@
                                 </label>
                             </li>
                             <li>
-                                <input type="radio" id="product2" name="booking_product" value="2"
+                                <input type="radio" id="product2" name="bkg_service" value="2"
                                     class="peer hidden">
                                 <label for="product2"
                                     class="inline-flex w-full cursor-pointer items-center justify-center rounded-lg border border-gray-200 bg-white p-5 text-gray-500 hover:border-wisend-blue hover:bg-gray-100 hover:text-gray-600 peer-checked:border-blue-600 peer-checked:bg-blue-100 peer-checked:text-blue-600 dark:border-gray-700 dark:bg-gray-800 dark:text-gray-400 dark:hover:bg-gray-700 dark:hover:text-gray-300 dark:peer-checked:text-blue-500">
@@ -285,7 +285,7 @@
                     {{-- KALKULASI BERAT ITEM --}}
                     <div class="grid w-full grid-cols-3 gap-9">
 
-                        {{-- INPUT BERAT AKTUAL--}}
+                        {{-- INPUT BERAT AKTUAL --}}
                         <div class="col">
                             <label for="item-weight"
                                 class="mb-2 block text-sm font-medium text-gray-900 dark:text-white">Berat Barang <span

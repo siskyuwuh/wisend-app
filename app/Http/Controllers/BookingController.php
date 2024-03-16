@@ -206,11 +206,11 @@ class BookingController extends Controller
     public function show(Booking $booking)
     {
         //
-        $destination = DistanceLocation::where('id', $booking->booking_destination)->first();
-
+        // $destination = DistanceLocation::where('id', $booking->booking_destination)->first();
+        // dd($booking);
         return view('booking.show', [
             'data' => $booking,
-            'destination' => $destination
+            // 'destination' => $destination
         ]);
     }
 
