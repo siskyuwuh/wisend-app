@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* Hapus scrollbar yang tidak aktif */
+::-webkit-scrollbar {
+    width: 6px;
+  }
+  
+  /* Gaya track scrollbar */
+  ::-webkit-scrollbar-track {
+    background: transparent; /* Atau warna latar belakang sesuai kebutuhan */
+  }
+  
+  /* Gaya thumb atau handle scrollbar */
+  ::-webkit-scrollbar-thumb {
+    background: #888; /* Warna thumb */
+    border-radius: 3px; /* Sudut melengkung thumb */
+    border: 1px solid #555; /* Garis pinggir thumb */
+  }
+  
+  /* Hover pada thumb */
+  ::-webkit-scrollbar-thumb:hover {
+    background: #555;
+  }
+  
